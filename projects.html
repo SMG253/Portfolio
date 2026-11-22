@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Your Name</title>
+  <meta name="description" content="Browse web development projects by Your Name. Search by title or technology and filter by tech stack.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
+  <script src="js/projects.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="container nav-bar" aria-label="Main">
+      <a class="brand" href="index.html">Your Name</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <h1 id="projects-title">Projects</h1>
+        <p class="page-intro">A selection of things I have built. Search by name or technology, or pick a technology from the list.</p>
+
+        <form class="filters" role="search" id="filter-form">
+          <div class="field">
+            <label for="search">Search projects</label>
+            <input type="search" id="search" name="search" placeholder="e.g. weather or CSS Grid" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="tech-filter">Filter by technology</label>
+            <select id="tech-filter" name="tech">
+              <option value="all">All technologies</option>
+              <!-- more options are added by projects.js -->
+            </select>
+          </div>
+        </form>
+
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+
+        <ul class="project-grid" id="project-grid"></ul>
+
+        <p class="empty-state" id="empty-state" hidden>No projects found. Try another search or technology.</p>
+      </div>
+    </section>
+
+    <!-- Project detail modal (filled by projects.js) -->
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <h2 id="dialog-title">Project</h2>
+      <p class="project-year" id="dialog-year"></p>
+      <p id="dialog-description"></p>
+      <ul class="tag-list" id="dialog-tech"></ul>
+      <div class="dialog-actions">
+        <a class="btn" id="dialog-link" href="#" target="_blank" rel="noopener">View on GitHub</a>
+        <button class="btn btn-outline" type="button" id="dialog-close">Close</button>
+      </div>
+    </dialog>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <ul class="footer-links">
+        <li><a href="https://github.com/">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        <li><a href="mailto:you@example.com">Email</a></li>
+      </ul>
+      <p>&copy; 2026 Your Name. Built with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
+</body>
+</html>
