@@ -5,66 +5,50 @@ const projects = [
   {
     id: 1,
     title: "Responsive Portfolio",
-    description: "This website: a three-page portfolio built mobile-first with semantic HTML, CSS custom properties and a dark mode toggle.",
+    description: "This website: a three-page portfolio built mobile-first with semantic HTML, CSS custom properties, a dark mode toggle and JavaScript-rendered project cards.",
     tech: ["HTML", "CSS", "JavaScript"],
     year: 2026,
-    link: "https://github.com/SMG253"
+    link: "https://github.com/SMG253/Portfolio"
   },
   {
     id: 2,
-    title: "Weather Dashboard",
-    description: "Shows the current weather and a 5-day forecast for any city using the Fetch API and a public weather API.",
-    tech: ["JavaScript", "Fetch API", "CSS Grid"],
+    title: "Forensic AI Crime Solver",
+    description: "An interactive crime investigation workbench that models forensic reasoning as a state-space search (DFS, BFS, A*) with a propositional logic interrogation engine, as a web app and a Python CLI.",
+    tech: ["JavaScript", "Python", "HTML", "CSS", "AI"],
     year: 2026,
-    link: "https://github.com/SMG253"
+    link: "https://github.com/SMG253/Forensic-AI-Crime-Solver"
   },
   {
     id: 3,
-    title: "Task Manager",
-    description: "A to-do app with add, edit, delete and filter features. Tasks are saved in localStorage so they survive a page reload.",
-    tech: ["JavaScript", "localStorage", "CSS"],
-    year: 2025,
-    link: "https://github.com/SMG253"
+    title: "Hangman Game",
+    description: "A digital Hangman game with multiple difficulty levels and AI hints on the hard level. Words are picked from a dictionary by a Flask backend.",
+    tech: ["Python", "Flask", "JavaScript", "HTML", "CSS"],
+    year: 2026,
+    link: "https://github.com/SMG253/hangman-game"
   },
   {
     id: 4,
-    title: "Restaurant Landing Page",
-    description: "A single-page restaurant site with a Flexbox menu layout, smooth scrolling and an accessible reservation form.",
-    tech: ["HTML", "CSS", "Flexbox"],
-    year: 2025,
-    link: "https://github.com/SMG253"
+    title: "Mobile Price Prediction",
+    description: "An end-to-end machine learning pipeline that predicts smartphone prices from hardware specs and brand, using Random Forest Regression, with EDA and feature engineering.",
+    tech: ["Python", "Machine Learning", "scikit-learn", "Pandas"],
+    year: 2026,
+    link: "https://github.com/SMG253/ML-project-complete-pipeline"
   },
   {
     id: 5,
-    title: "Quiz Game",
-    description: "A timed multiple-choice quiz that tracks the score, shows correct answers and stores the high score.",
-    tech: ["JavaScript", "HTML", "CSS"],
-    year: 2025,
-    link: "https://github.com/SMG253"
+    title: "Used Car Prices EDA",
+    description: "Exploratory data analysis of a used car dataset to find what drives prices, followed by tree-based models to predict them.",
+    tech: ["Python", "Pandas", "scikit-learn", "Machine Learning"],
+    year: 2026,
+    link: "https://github.com/SMG253/used-cars-prices-EDA"
   },
   {
     id: 6,
-    title: "Photo Gallery",
-    description: "A responsive image gallery built with CSS Grid, lazy-loaded images and a keyboard-friendly lightbox.",
-    tech: ["CSS Grid", "JavaScript", "HTML"],
-    year: 2024,
-    link: "https://github.com/SMG253"
-  },
-  {
-    id: 7,
-    title: "Expense Tracker",
-    description: "Records income and expenses, shows the balance and groups spending by category.",
-    tech: ["JavaScript", "localStorage", "CSS Grid"],
-    year: 2024,
-    link: "https://github.com/SMG253"
-  },
-  {
-    id: 8,
-    title: "Markdown Previewer",
-    description: "Type Markdown on the left and see the formatted result on the right, updated as you type.",
-    tech: ["JavaScript", "HTML", "Flexbox"],
-    year: 2024,
-    link: "https://github.com/SMG253"
+    title: "Google Maps Scraper",
+    description: "Collects business details from Google Maps as an alternative to the paid API. Selenium does the scraping, FastAPI serves the results and they can be exported to Excel.",
+    tech: ["Python", "Selenium", "FastAPI", "Pandas"],
+    year: 2025,
+    link: "https://github.com/SMG253/Google-map-scraping"
   }
 ];
 
