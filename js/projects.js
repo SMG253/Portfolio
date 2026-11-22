@@ -8,7 +8,7 @@ const projects = [
     description: "This website: a three-page portfolio built mobile-first with semantic HTML, CSS custom properties and a dark mode toggle.",
     tech: ["HTML", "CSS", "JavaScript"],
     year: 2026,
-    link: "https://github.com/"
+    link: "https://github.com/SMG253"
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const projects = [
     description: "Shows the current weather and a 5-day forecast for any city using the Fetch API and a public weather API.",
     tech: ["JavaScript", "Fetch API", "CSS Grid"],
     year: 2026,
-    link: "https://github.com/"
+    link: "https://github.com/SMG253"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const projects = [
     description: "A to-do app with add, edit, delete and filter features. Tasks are saved in localStorage so they survive a page reload.",
     tech: ["JavaScript", "localStorage", "CSS"],
     year: 2025,
-    link: "https://github.com/"
+    link: "https://github.com/SMG253"
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const projects = [
     description: "A single-page restaurant site with a Flexbox menu layout, smooth scrolling and an accessible reservation form.",
     tech: ["HTML", "CSS", "Flexbox"],
     year: 2025,
-    link: "https://github.com/"
+    link: "https://github.com/SMG253"
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ const projects = [
     description: "A timed multiple-choice quiz that tracks the score, shows correct answers and stores the high score.",
     tech: ["JavaScript", "HTML", "CSS"],
     year: 2025,
-    link: "https://github.com/"
+    link: "https://github.com/SMG253"
   },
   {
     id: 6,
@@ -48,7 +48,7 @@ const projects = [
     description: "A responsive image gallery built with CSS Grid, lazy-loaded images and a keyboard-friendly lightbox.",
     tech: ["CSS Grid", "JavaScript", "HTML"],
     year: 2024,
-    link: "https://github.com/"
+    link: "https://github.com/SMG253"
   },
   {
     id: 7,
@@ -56,7 +56,7 @@ const projects = [
     description: "Records income and expenses, shows the balance and groups spending by category.",
     tech: ["JavaScript", "localStorage", "CSS Grid"],
     year: 2024,
-    link: "https://github.com/"
+    link: "https://github.com/SMG253"
   },
   {
     id: 8,
@@ -64,7 +64,7 @@ const projects = [
     description: "Type Markdown on the left and see the formatted result on the right, updated as you type.",
     tech: ["JavaScript", "HTML", "Flexbox"],
     year: 2024,
-    link: "https://github.com/"
+    link: "https://github.com/SMG253"
   }
 ];
 
