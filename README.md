@@ -4,7 +4,7 @@ CS-554 Advanced Web Technologies – Assignment 1 (Version A)
 
 A three-page, mobile-first developer portfolio built with **semantic HTML5, hand-written CSS3 and vanilla JavaScript** (no frameworks or libraries).
 
-**Live site:** https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+**Live site:** https://smg253.github.io/Portfolio/
 
 ![Screenshot of the portfolio home page](screenshot.png)
 
