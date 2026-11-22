@@ -35,7 +35,7 @@ A three-page, mobile-first developer portfolio built with **semantic HTML5, hand
 ├── js/theme.js      # dark mode toggle (all pages)
 ├── js/projects.js   # project data, rendering, search/filter, modal
 ├── js/contact.js    # form validation
-└── images/avatar.svg
+└── images/profile.jpg
 ```
 
 ## Run locally
