@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Your Name</title>
+  <meta name="description" content="Get in touch with Your Name about frontend internships, freelance work or collaboration.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
+  <script src="js/contact.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="container nav-bar" aria-label="Main">
+      <a class="brand" href="index.html">Your Name</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <h1 id="contact-title">Contact me</h1>
+        <p class="page-intro">Have an internship opening or a project in mind? Send me a message and I will reply within two days.</p>
+
+        <form class="contact-form" id="contact-form" action="#" method="post">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required minlength="3" autocomplete="name"
+                   aria-describedby="name-error">
+            <p class="error-message" id="name-error"></p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email"
+                   aria-describedby="email-error">
+            <p class="error-message" id="email-error"></p>
+          </div>
+
+          <div class="field">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required aria-describedby="subject-error">
+              <option value="">Choose a subject</option>
+              <option value="internship">Internship opportunity</option>
+              <option value="freelance">Freelance project</option>
+              <option value="collaboration">Collaboration</option>
+              <option value="other">Other</option>
+            </select>
+            <p class="error-message" id="subject-error"></p>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required minlength="20"
+                      aria-describedby="message-error"></textarea>
+            <p class="error-message" id="message-error"></p>
+          </div>
+
+          <fieldset aria-describedby="source-error">
+            <legend>How did you hear about me?</legend>
+            <div class="choice">
+              <input type="radio" id="source-linkedin" name="source" value="linkedin" required>
+              <label for="source-linkedin">LinkedIn</label>
+            </div>
+            <div class="choice">
+              <input type="radio" id="source-github" name="source" value="github">
+              <label for="source-github">GitHub</label>
+            </div>
+            <div class="choice">
+              <input type="radio" id="source-friend" name="source" value="friend">
+              <label for="source-friend">A friend or colleague</label>
+            </div>
+            <div class="choice">
+              <input type="radio" id="source-other" name="source" value="other">
+              <label for="source-other">Other</label>
+            </div>
+            <p class="error-message" id="source-error"></p>
+          </fieldset>
+
+          <div class="field">
+            <div class="choice">
+              <input type="checkbox" id="consent" name="consent" required aria-describedby="consent-error">
+              <label for="consent">I agree that my details may be used to reply to this message.</label>
+            </div>
+            <p class="error-message" id="consent-error"></p>
+          </div>
+
+          <div>
+            <button class="btn" type="submit">Send message</button>
+          </div>
+
+          <p class="success-message" id="success-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <ul class="footer-links">
+        <li><a href="https://github.com/">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        <li><a href="mailto:you@example.com">Email</a></li>
+      </ul>
+      <p>&copy; 2026 Your Name. Built with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
+</body>
+</html>
